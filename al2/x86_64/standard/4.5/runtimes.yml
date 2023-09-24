@@ -30,10 +30,10 @@ runtimes:
           - goenv global  $GOLANG_20_VERSION
   python:
     versions:
-      3.11:
+      3.9:
         commands:
-          - echo "Installing Python version 3.11 ..."
-          - pyenv global  $PYTHON_311_VERSION
+          - echo "Installing Python version 3.9 ..."
+          - pyenv global  $PYTHON_39_VERSION
   php:
     versions:
       8.2:

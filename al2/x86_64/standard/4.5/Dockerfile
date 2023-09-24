@@ -285,7 +285,7 @@ RUN   pyenv global  $PYTHON_39_VERSION
 RUN set -ex \
     && pip3 install --no-cache-dir --upgrade --force-reinstall "pip==$PYTHON_PIP_VERSION" \
     && pip3 install --no-cache-dir --upgrade "PyYAML==$PYYAML_VERSION" \
-    && pip3 install --no-cache-dir --upgrade 'setuptools==57.5.0' wheel aws-sam-cli awscli boto3 pipenv virtualenv --use-feature=2020-resolver
+    && pip3 install --no-cache-dir --upgrade 'setuptools==59.5.0' wheel aws-sam-cli awscli boto3 pipenv virtualenv --use-feature=2020-resolver
 
 #**************** END PYTHON *****************************************************
 
